@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="ezg2301/InfWindow.axaml" value="ezg2301/ezg2301.csproj" />
+        <entry key="ezg2301/MainWindow.axaml" value="ezg2301/ezg2301.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

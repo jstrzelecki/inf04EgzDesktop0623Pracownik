@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ezg2301.InfoWindow"
+        Title=""
+        Width="350"
+        Height="150"
+        CanResize="False"
+        WindowStartupLocation="CenterScreen"
+        >
+    <StackPanel>
+        <TextBlock x:Name="WindowContetnTextBlock" Text="Tekst Info" 
+                   TextWrapping="Wrap"
+                   Margin="20" FontSize="13"/>
+        <Button Content="OK" Click="OnClickOkButton" 
+                Margin="25" Padding="10" Width="100"
+                FontSize="15" 
+                HorizontalAlignment="Right" HorizontalContentAlignment="Center"
+                />
+    </StackPanel>
+</Window>
